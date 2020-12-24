@@ -54,6 +54,9 @@ body {
   text-align: center;
   font-size: 1.4rem;
 }
+#img-caption:hover {
+  transform: scale(1.25);
+}
 
 /* TRIBUTE */
 #tribute-info {
@@ -95,13 +98,13 @@ body {
 }
 
 /* QUOTE */
-#quote-div {
-  width: 35%;
+#blockquote {
+  width: 45%;
   margin: 20px auto;
 }
 #quote-text:hover {
   border-color: black;
-  transform: scale(1.5);
+  transform: scale(1.25);
 }
 #quote-text {
   font-size: 1.8rem;
@@ -110,6 +113,10 @@ body {
   line-height: 2.6rem;
   border: solid lightgrey 5px;
   font-style: italic;
+}
+cite {
+  display: block;
+  font-style: normal;
 }
 
 @media screen and (max-width: 500px) {
@@ -143,7 +150,7 @@ body {
   #wiki-link {
     font-size: 1.6rem;
   }
-  #quote-div {
+  #blockquote {
     width: 80%;
   }
   #quote-text {
