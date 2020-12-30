@@ -61,6 +61,7 @@ header {
   width: 90%;
 }
 #paragraphs {
+  background-color: #aeb8fe;
   border: 5px solid black;
   border-radius: 5px;
   width: 90%;
@@ -89,6 +90,7 @@ header {
 
 /* QUOTE */
 #blockquote {
+  background-color: #aeb8fe;
   width: 45%;
   margin: 20px auto;
   border: 5px solid black;
