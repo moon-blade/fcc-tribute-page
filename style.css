@@ -11,23 +11,23 @@
 html {
   font-size: 10px;
 }
-body {
-  background-color: whitesmoke;
-}
 #main {
   margin: auto auto;
   border: 5px black solid;
-  background-color: rgba(159, 172, 189, 0.25);
+  background: #758bfd;
+  color: black;
 }
 
 /* TITLE */
 #title {
-  font-size: 1.6rem;
   margin: 20px auto;
   width: 50%;
   text-align: center;
   padding: 20px 0;
-  align-items: center;
+}
+header {
+  font-size: 3rem;
+  font-weight: bold;
 }
 #title-paragraph {
   font-size: 2rem;
@@ -35,10 +35,10 @@ body {
 
 /* PHOTO */
 #img-div {
-  background-color: whitesmoke;
+  background-color: #aeb8fe;
   margin: 20px auto;
   border-radius: 5px;
-  border: 5px solid grey;
+  border: 5px solid black;
   width: 90%;
 }
 #image {
@@ -48,36 +48,27 @@ body {
 }
 
 #img-caption {
-  /* background: red; */
   margin: 20px auto;
   width: 50%;
   text-align: center;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
-#img-caption:hover {
-  transform: scale(1.25);
-}
-
 /* TRIBUTE */
 #tribute-info {
   margin: 20px auto;
   text-align: justify;
   line-height: 2.6rem;
-  border: solid grey 5px;
-  border-radius: 5px;
   width: 90%;
 }
 #paragraphs {
-  border: 5px solid #d3d3d3;
-  width: 70%;
+  border: 5px solid black;
+  border-radius: 5px;
+  width: 90%;
   margin: 20px auto;
-}
-#paragraph1 {
-  margin-top: 15px;
+  font-size: 1.6rem;
 }
 #paragraph1,
 #paragraph2 {
-  font-size: 1.6rem;
   margin: 20px auto;
   width: 70%;
 }
@@ -86,12 +77,11 @@ body {
   text-align: center;
   font-size: 2rem;
   width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 20px auto;
 }
 #tribute-link {
   text-decoration: none;
-  color: darkblue;
+  color: blue;
 }
 #tribute-link:hover {
   text-decoration: underline;
@@ -101,17 +91,14 @@ body {
 #blockquote {
   width: 45%;
   margin: 20px auto;
-}
-#quote-text:hover {
-  border-color: black;
-  transform: scale(1.25);
+  border: 5px solid black;
+  border-radius: 5px;
 }
 #quote-text {
   font-size: 1.8rem;
   margin: 20px auto;
   text-align: center;
   line-height: 2.6rem;
-  border: solid lightgrey 5px;
   font-style: italic;
 }
 cite {
@@ -137,15 +124,15 @@ cite {
   #tribute-info {
     line-height: 2.2rem;
     width: 100%;
-    border: hidden;
   }
   #paragraphs {
     width: 100%;
     margin: 20px auto;
+    border: hidden;
   }
   #paragraph1,
   #paragraph2 {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
   }
   #wiki-link {
     font-size: 1.6rem;
