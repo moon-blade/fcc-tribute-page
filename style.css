@@ -14,7 +14,7 @@ html {
 #main {
   margin: auto auto;
   border: 5px black solid;
-  background: #758bfd;
+  background: #006bd1;
   color: black;
 }
 
@@ -35,7 +35,7 @@ header {
 
 /* PHOTO */
 #img-div {
-  background-color: #aeb8fe;
+  background-color: #00a0ff;
   margin: 20px auto;
   border-radius: 5px;
   border: 5px solid black;
@@ -61,7 +61,7 @@ header {
   width: 90%;
 }
 #paragraphs {
-  background-color: #aeb8fe;
+  background-color: #00a0ff;
   border: 5px solid black;
   border-radius: 5px;
   width: 90%;
@@ -90,7 +90,7 @@ header {
 
 /* QUOTE */
 #blockquote {
-  background-color: #aeb8fe;
+  background-color: #00a0ff;
   width: 45%;
   margin: 20px auto;
   border: 5px solid black;
